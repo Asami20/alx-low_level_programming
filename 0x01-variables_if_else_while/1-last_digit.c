@@ -5,7 +5,8 @@
 /**
  * main - entry point
  *
- * Description: false or true validation
+ * Description: print the value of n status:
+ *              greater than, is zero  and is not not less than 6.
  *
  * Return: 0 (success)
  */
@@ -16,10 +17,10 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 digit = n % 10;
 if (digit > 5)
-printf("");
+printf("Last digit of %i  is %i  and is greater than 6 and not 5\n", n, digit);
 else if (digit == 0)
-printf("");
+printf("Last digit of %i  is %i  and is 0\n", n, digit);
 else if (digit < 6 && digit != 0)
-printf("Last digit of 629438752 is 2 and is less than 6 and not 0\n", n);
+printf("Last digit of %i  is %i  and is less than 6 and not 0\n", n, digit);
 return (0);
 }
