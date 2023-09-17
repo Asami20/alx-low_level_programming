@@ -3,11 +3,11 @@
 /**
  * main - Entry point
  *
- * Description: This program prints all possible different combinations of two digits
- *              in ascending order, separated by commas and spaces.
+ * Description: This program prints all possible different combinations of
+ * two digits in ascending order, separated by commas and spaces.
  *
  * Return: Always 0 (Success)
- */
+*/
 int main(void)
 {
 int digit1, digit2;
